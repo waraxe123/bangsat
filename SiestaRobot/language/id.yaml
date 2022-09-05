@@ -666,7 +666,7 @@ search_help: |
     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
     ❂ AL <query>*:* AL menjawab pertanyaan
 
-    💡 Contoh : `Siesta di mana Jepang?`
+    💡 Contoh : `AL di mana Jepang?`
 stickers_help: |
     ──「 Stiker 」──
 
