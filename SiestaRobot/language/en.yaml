@@ -559,7 +559,7 @@ info_and_afk_help: |
       - brb <reason>: Same as the afk command, but not a command. 
       
     *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/KennedyProject/44)
+    Come and see [HP System explained](https://t.me/QwertYou_LoveMe/6)
 locks_help: |
     ──「 Locks 」──
 
@@ -663,7 +663,7 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Siesta <query>*:* Siesta answers the query
+    ❂ AL <query>*:* AL answers the query
 
     💡 Ex : `AL where is Japan?`
 stickers_help: |
