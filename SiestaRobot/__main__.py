@@ -382,12 +382,12 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Admins", callback_data="siesta_admin"),
+                        InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="siesta_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
+                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://www.instagram.com/invites/contact/?i=1bk9e2vezw3ma&utm_content=8yz3iiq"),
@@ -812,7 +812,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Woi Mek, Gw Dah Aktif 😏!**""",
+                f"""**Woi Mek, Gw Dah Aktif 😏**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
