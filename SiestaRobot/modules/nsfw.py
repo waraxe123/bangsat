@@ -773,5 +773,3 @@ __handlers__ = [
     BAKA_HANDLER,
     DVA_HANDLER,
 ]
-
-"""
