@@ -13,6 +13,7 @@ from telegram.ext import CommandHandler, run_async, CallbackContext
 from SiestaRobot.modules.helper_funcs.filters import CustomFilters
 from SiestaRobot.modules.helper_funcs.chat_status import user_admin
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
+from SiestaRobot.modules.language import gs 
 
 @user_admin
 @gloggable
@@ -828,8 +829,7 @@ __help__ =
 """
 
 
-from SiestaRobot.modules.language import gs 
-
-def helps(chat): return gs(chat, "nsfw_help") 
+def helps(chat): 
+    return gs(chat, "nsfw_help") 
 
 __mod_name__ = "Nsꜰᴡ"
