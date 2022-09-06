@@ -213,5 +213,5 @@ def helps(chat):
     return gs(chat, "logomarker_help")
 
 
-__mod_name__ = "Logomaker"
+__mod_name__ = "LᴏɢᴏMᴀᴋᴇʀ"
 
