@@ -749,6 +749,63 @@ warns_help: |
     ❂ /nowwarn <keyword>: hentikan filter peringatan
     ❂ /warnlimit <num>: mengatur batas peringatan
     ❂ /strongwarn <on/yes/off/no>: Jika disetel ke aktif, melebihi batas peringatan akan mengakibatkan larangan. Lain, hanya akan pukulan.
+ nsfw_help: |
+    ──「 NSFW 」──
+
+    ❂ /addnsfw : Aktifkan mode NSFW
+    ❂ /rmnsfw : Nonaktifkan mode NSFW
+ 
+    *Perintah yang tersedia:*
+    ❂ /neko: Mengirim Gambar sumber SFW Neko Acak.
+    ❂ /feet: Mengirim Gambar Kaki Anime Secara Acak.
+    ❂ /yuri: Mengirim gambar sumber Yuri secara acak.
+    ❂ /trap: Mengirim Gambar sumber Perangkap Acak.
+    ❂ /futanari: Mengirim Gambar sumber Futanari Acak.
+    ❂ /hololewd: Mengirimkan Holo Lewds Acak.
+    ❂ /lewdkemo: Mengirim Kemo Cabul Secara Acak.
+    ❂ /sologif: Mengirim GIF Solo Acak.
+    ❂ /cumgif: Mengirim GIF Cum Acak.
+    ❂ /erokemo: Mengirim Gambar Ero-Kemo Acak.
+    ❂ /lesbian: Mengirim Gambar Sumber Les Acak.
+    ❂ /lewdk: Mengirim Kitsune Cabul Secara Acak.
+    ❂ /ngif: Mengirim GIF Neko Acak.
+    ❂ /tickle: Mengirim GIF Tickle Acak.
+    ❂ /lewd: Mengirim Cabul Acak.
+    ❂ /feed: Mengirim GIF Umpan Acak.
+    ❂ /eroyuri: Mengirim Gambar sumber Ero-Yuri Acak.
+    ❂ /eron: Mengirim Gambar sumber Ero-Neko Acak.
+    ❂ /cum: Mengirim Gambar Cum Acak.
+    ❂ /bjgif: Mengirim GIF Pekerjaan Pukulan Acak.
+    ❂ /bj: Mengirim Gambar Sumber Pekerjaan Pukulan Acak.
+    ❂ /nekonsfw: Mengirim Gambar sumber NSFW Neko Acak.
+    ❂ /solo: Mengirim GIF Neko NSFW Acak.
+    ❂ /kemonomimi: Mengirim Gambar sumber KemonoMimi Acak.
+    ❂ /avatarlewd: Mengirim Stiker Cabul Avater Secara Acak.
+    ❂ /gasm: Mengirim Stiker Orgasme Acak.
+    ❂ /poke: Mengirim GIF Poke Acak.
+    ❂ /anal: Mengirim GIF Anal Acak.
+    ❂ /hentai: Mengirim Gambar Sumber Hentai Acak.
+    ❂ /avatar: Mengirim Stiker Avatar Acak.
+    ❂ /erofeet: Mengirim Gambar sumber Ero-Feet Acak.
+    ❂ /holo: Mengirim Gambar sumber Holo Acak.
+    ❂ /tits: Mengirim Gambar sumber Tits Acak.
+    ❂ /pussygif: Mengirim GIF Pussy Acak.
+    ❂ /holoero: Mengirim Gambar sumber Ero-Holo Acak.
+    ❂ /pussy: Mengirim Gambar sumber Pussy Acak.
+    ❂ /hentaigif: Mengirim GIF Hentai Acak.
+    ❂ /classic: Mengirim GIF Hentai Klasik Acak.
+    ❂ /kuni: Mengirim GIF Menjilat Pussy Acak.
+    ❂ /waifu: Mengirim Stiker Waifu Secara Acak.
+    ❂ /kiss: Mengirim GIF Kissing Acak.
+    ❂ /femdom: Mengirim Gambar sumber Femdom Acak.
+    ❂ /cuddle: Mengirim GIF Cuddle Acak.
+    ❂ /erok: Mengirim Gambar sumber Ero-Kitsune Acak.
+    ❂ /foxgirl: Mengirim Gambar sumber FoxGirl Acak.
+    ❂ /titsgif: Mengirim GIF Payudara Acak.
+    ❂ /ero: Mengirim Gambar sumber Ero Acak.
+    ❂ /smug: Mengirim GIF Smug Acak.
+    ❂ /baka: Mengirim GIF Baka Shout Acak.
+    ❂ /dva: Mengirim Gambar sumber D.VA Acak.
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
