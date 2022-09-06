@@ -479,6 +479,7 @@ def siesta_about_callback(update, context):
                     [
                         InlineKeyboardButton(text="AL", url="https://t.me/IDnyaAL"),
                     ],
+                    [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
                     ]
                 ]
