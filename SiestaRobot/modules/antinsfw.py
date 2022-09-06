@@ -9,7 +9,7 @@ from SiestaRobot.utils.permissions import adminsOnly
 from SiestaRobot.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 from SiestaRobot.utils.filter_groups import nsfw_detect_group
 
-__mod_name__ = "Anti-NSFW​"
+__mod_name__ = "Aɴᴛɪ-ɴsꜰᴡ​"
 
 async def get_file_id_from_message(message):
     file_id = None
