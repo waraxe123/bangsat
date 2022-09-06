@@ -247,7 +247,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    AL AI is the only ai system which can detect & reply upto 200 language's
+    Hito AI is the only ai system which can detect & reply upto 200 language's
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
@@ -263,7 +263,7 @@ cleaner_help: |
 
     *Following are Disasters only commands, admins cannot use these:*
 
-    ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Saitama.
+    ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Hito.
     ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
 connection_help: |
     ──「 Connection 」──
@@ -343,7 +343,7 @@ fsub_feds_help: |
 
     *Force Subscribe:*
 
-    Siesta can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+    Hito can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
     *Setup* *:* *Only creator*
     ❂ Add me in your group as admin
@@ -662,9 +662,9 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ AL <query>*:* AL answers the query
+    ❂ Hito <query>*:* Hito answers the query
 
-    💡 Ex : `AL where is Japan?`
+    💡 Ex : `Hito where is Japan?`
 stickers_help: |
     ──「 Stickers 」──
 
