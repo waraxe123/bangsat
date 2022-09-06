@@ -9,22 +9,22 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ᴀʟ !*
-  ✪  sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴡɪʙᴜ [✨](https://telegra.ph/file/097fb9c7248583e3d6a50.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ʜɪᴛᴏ !*
+  ✪  sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴡɪʙᴜ [✨](https://telegra.ph/file/097fb9c7248583e3d6a50.jpg)
   ────────────────────
   × *Aᴋᴛɪꜰ Sᴇᴊᴀᴋ:* {}
   × {} *Pᴇɴɢɢᴜɴᴀ, Dɪ Sᴇʟᴜʀᴜʜ* {} *Cʜᴀᴛꜱ.*
   ────────────────────
-  ✪ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ sᴀʏᴀ ʏᴀɴɢ ᴀᴅᴀ.
+  ✪ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ sᴀʏᴀ.
   ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
    
 group_start_text: |
-  *👋🏻 Hai Kentod, Gua AL!* 
+  *👋🏻 Hai Kentod, Gua Hito!* 
   
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  ✺ Halo saya *AL*, bot manajemen grup yang kuat yang dibuat untuk membantu Lu mengelola grup dengan mudah. ✺
+  ✺ Halo saya *Hito*, bot manajemen grup yang kuat yang dibuat untuk membantu kamu mengelola grup dengan mudah. ✺
 
   ✪ Saya dapat membatasi pengguna.
   ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
@@ -33,12 +33,12 @@ pm_about_text: |
   ✪ Saya memiliki sistem pencatatan, daftar hitam, dan bahkan balasan yang telah ditentukan sebelumnya untuk kata kunci tertentu.
   ✪ Saya memeriksa izin admin sebelum menjalankan perintah apa pun dan hal lainnya
 
-  _AL dilisensikan di bawah GNU General Public License v3.0_
-  Klik tombol di bawah untuk mendapatkan bantuan dasar untuk AL.
+  _Hito dilisensikan di bawah GNU General Public License v3.0_
+  Klik tombol di bawah untuk mendapatkan bantuan dasar untuk Hito.
 pm_about_admin_text: |
   *✺ Ayo buat grupmu sedikit efektif sekarang ✺*
 
-  Selamat, AL sekarang siap untuk mengelola grup Anda.
+  Selamat, Hito sekarang siap untuk mengelola grup Anda.
 
   *Alat Admin*
   Alat Admin Dasar membantu Anda melindungi dan memperkuat grup Anda.
@@ -55,11 +55,11 @@ pm_about_notes_text: |
 pm_about_support_text: |
   *✺ Obrolan dukungan AL ✺*
 
-  Bergabunglah dengan Grup/Saluran Dukungan Saya untuk melihat atau melaporkan masalah di AL.
+  Bergabunglah dengan Grup/Saluran Dukungan Saya untuk melihat atau melaporkan masalah di Hito.
 pm_about_credit_text: |
-  *✺ Credits for AL ✺*
+  *✺ Credits for Hito ✺*
 
-  Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat AL
+  Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat Hito
 pm_help_text: |
   *✺ Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik. ✺*
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
@@ -88,7 +88,7 @@ notes_button: "ᴄᴀᴛᴀᴛᴀɴ"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
 help_button: "ʙᴀɴᴛᴜᴀɴ"
 back_button: "ᴋᴇᴍʙᴀʟɪ"
-about_button: "ᴛᴇɴᴛᴀɴɢ ᴀʟ"
+about_button: "ᴛᴇɴᴛᴀɴɢ ʜɪᴛᴏ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 
 # MODULES
@@ -247,7 +247,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Bot Obrolan AI 」──
 
-    AL AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
+    Hito AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
 
     ❂ /chatbot [ON/OFF]: Mengaktifkan dan menonaktifkan mode AI Chat.
     ❂ /chatbot EN : Mengaktifkan chatbot berbahasa Inggris saja.
@@ -263,7 +263,7 @@ cleaner_help: |
 
     *Berikut adalah perintah khusus Bencana, admin tidak dapat menggunakan ini:*
 
-    ❂ /gignoreblue <word>*:* secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Saitama.
+    ❂ /gignoreblue <word>*:* secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Hito.
     ❂ /ungignoreblue <word>*:* hapus perintah tersebut dari daftar pembersihan global
 connection_help: |
     ──「 Koneksi 」──
@@ -662,9 +662,9 @@ search_help: |
     ❂ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
     ❂ /country <nama negara>*:* Mengumpulkan info tentang negara tertentu
     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
-    ❂ AL <query>*:* AL menjawab pertanyaan
+    ❂ Hito <query>*:* Hito menjawab pertanyaan
 
-    💡 Contoh : `AL di mana Jepang?`
+    💡 Contoh : `Hito di mana Jepang?`
 stickers_help: |
     ──「 Stiker 」──
 
