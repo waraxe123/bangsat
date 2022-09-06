@@ -749,7 +749,7 @@ warns_help: |
     ❂ /nowwarn <keyword>: hentikan filter peringatan
     ❂ /warnlimit <num>: mengatur batas peringatan
     ❂ /strongwarn <on/yes/off/no>: Jika disetel ke aktif, melebihi batas peringatan akan mengakibatkan larangan. Lain, hanya akan pukulan.
- nsfw_help: |
+nsfw_help: |
     ──「 NSFW 」──
 
     ❂ /addnsfw : Aktifkan mode NSFW
