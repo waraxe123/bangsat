@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/7cf86a012417ef72a1e77.jpg"
+SIESTA_IMG = "https://telegra.ph/file/c97b7e4f0af6394db940b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @saint_foire \
@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/ALMusicXBot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -417,7 +417,7 @@ def siesta_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/ALMusicXBot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -524,7 +524,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/ALMusicXBot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
                         ]
                     ]
                 ),
