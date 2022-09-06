@@ -9,7 +9,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ᴀʟ !*
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ʜɪᴛᴏ !*
   ✪ ɪ'ᴍ ᴀɴ ᴡɪʙᴜ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ [✨](https://telegra.ph/file/097fb9c7248583e3d6a50.jpg)
   ────────────────────
   × *Uᴘᴛɪᴍᴇ:* {}
@@ -19,12 +19,12 @@ pm_start_text: |
   ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
    
 group_start_text: |
-  *👋🏻 Hello Bro., I'm AL !*
+  *👋🏻 Hello Bro., I'm ʜɪᴛᴏ !*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hello Bro I'm *AL*, a powerful group management bot built to help you manage your group easily. ✺
+  ✺ Hello Bro I'm *Hito*, a powerful group management bot built to help you manage your group easily. ✺
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -33,12 +33,12 @@ pm_about_text: |
   ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
   ✪ I check for admins' permissions before executing any command and more stuffs
 
-  _AL's licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for AL.
+  _Hito's licensed under the GNU General Public License v3.0_
+  Click on button bellow to get basic help for Hito.
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
-  Congragulations, AL now ready to manage your group.
+  Congragulations, Hito now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -53,13 +53,13 @@ pm_about_notes_text: |
   ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ✪ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺ AL support chats ✺*
+  *✺ Hito support chats ✺*
 
-  Join My Support Group/Channel for see or report a problem on AL.
+  Join My Support Group/Channel for see or report a problem on Hito.
 pm_about_credit_text: |
-  *✺ Credis for AL ✺*
+  *✺ Credis for Hito ✺*
 
-  Here Developers Making And Give Inspiration For Made The AL
+  Here Developers Making And Give Inspiration For Made The Hito
 pm_help_text: |
   *✺ Click on the button bellow to get description about specifics command. ✺*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
@@ -88,7 +88,7 @@ notes_button: "ɴᴏᴛᴇs"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
 help_button: "ɢᴇᴛ ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴀʙᴏᴜᴛ ᴀʟ"
+about_button: "ᴀʙᴏᴜᴛ ʜɪᴛᴏ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 
 # MODULES
