@@ -9,24 +9,18 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 
 # PM Text
 pm_start_text: |
-  *Hai Tod {}, Gw AL*
-  ✪ Gw Adalah Robot Manajemen Tema Wibu [✨](https://telegra.ph/file/7cf86a012417ef72a1e77.jpg)
-
-  ────────────────────
-  × *Waktu Operasi Server :* `{}`
-  × `{}` *pengguna.*
-  × `{}` *obrolan.*
-  ────────────────────
-
-  ✪ Tekan /help untuk melihat perintah yang ada.
+  *ʜᴇʟʟᴏ {}, sᴀʏᴀ ᴀʟ*
+  sᴀʏᴀ ᴅɪ sɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴅɪ ɢʀᴜᴘ ᴀɴᴅᴀ!
+  ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴀᴅᴀ.
+  ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
    
 group_start_text: |
-  *👋🏻 Hai Kentod, Gw AL!* 
+  *👋🏻 Hai Kentod, Gua AL!* 
   
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  ✺ Halo mek Gw *AL*, bot manajemen grup yang kuat yang dibuat untuk membantu Lu mengelola grup dengan mudah. ✺
+  ✺ Halo saya *AL*, bot manajemen grup yang kuat yang dibuat untuk membantu Lu mengelola grup dengan mudah. ✺
 
   ✪ Saya dapat membatasi pengguna.
   ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
@@ -83,14 +77,14 @@ group_settings_text: "Klik di sini untuk mendapatkan pengaturan obrolan ini, ser
 group_settings_button: "Pengaturan"
 
 # PM Button
-add_bot_to_group_button: "💢 Tambahin Gw Ke Grup Lu 💢"
-support_chat_link_button: "Mendukung"
-updates_channel_link_button: "Pembaruan"
-notes_button: "Catatan"
-source_button: "Kode sumber"
-help_button: "Bantuan"
-back_button: "Kembali"
-about_button: "Tentang AL"
+add_bot_to_group_button: "💢 ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴋᴇ ɢʀᴜᴘ ᴍᴜ 💢"
+support_chat_link_button: "ᴍᴇɴᴅᴜᴋᴜɴɢ"
+updates_channel_link_button: "ᴘᴇᴍʙᴀʀᴜᴀɴ"
+notes_button: "ᴄᴀᴛᴀᴛᴀɴ"
+source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
+help_button: "ʙᴀɴᴛᴜᴀɴ"
+back_button: "ᴋᴇᴍʙᴀʟɪ"
+about_button: "ᴛᴇɴᴛᴀɴɢ ᴀʟ"
 inline_button: "Inline!​​"
 
 # MODULES
