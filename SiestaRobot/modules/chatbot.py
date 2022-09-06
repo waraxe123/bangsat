@@ -66,9 +66,9 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Siesta AI Was Not Activated In This Chat")
+            await lel.edit("AL AI Was Not Activated In This Chat")
             return
-        await lel.edit(f"Siesta AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"AL AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
@@ -107,21 +107,21 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("Siesta", "Aco")
-        test = test.replace("Siesta", "Aco")
-        test = test.replace("My god is @saint_foire", "I'm a Christian")
+        test = test.replace("AL", "Aco")
+        test = test.replace("AL", "Aco")
+        test = test.replace("My god is @IDnyaAL", "I'm a Muslim")
         test = test.replace("16", "9")
-        test = test.replace("@saint_foire is my husband.", "I'm single.")
-        test = test.replace("My husband is @saint_foire", "I'm single.")
-        test = test.replace("@machinaxsupport", "Siestabot.ai")
-        test = test.replace("I live in @machinaxsupport.", "I live in San Francisco, California.")
-        test = test.replace("I was created by @saint_foire", "I made myself")
+        test = test.replace("@IDnyaAL is my husband.", "I'm single.")
+        test = test.replace("My husband is @IDnyaAL", "I'm single.")
+        test = test.replace("@NiskalaSupport", "AL.ai")
+        test = test.replace("I live in @NiskalaSupport.", "I live in San Francisco, California.")
+        test = test.replace("I was created by @IDnyaAL", "I made myself")
         test = test.replace(
-            "Hello there I am Siesta...nice to meet u",
+            "Hello there I am AL...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
-        test = test.replace("@saint_foire is my owner", "Have the control right.")
+        test = test.replace("@IDnyaAL is my owner", "Have the control right.")
         test = test.replace(
-            "Hi, My name is Siesta Nice to meet you.",
+            "Hi, My name is AL Nice to meet you.",
             "Hi, my friend, what can I do for you today?")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
@@ -437,4 +437,4 @@ async def inuka(client, message):
 def helps(chat):
     return gs(chat, "chatbot_help")
 
-__mod_name__ = "Chatbot"
+__mod_name__ = "CʜᴀᴛBᴏᴛ"
