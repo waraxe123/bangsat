@@ -390,7 +390,7 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://xnxx.com"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://www.instagram.com/invites/contact/?i=1bk9e2vezw3ma&utm_content=8yz3iiq"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -479,11 +479,6 @@ def siesta_about_callback(update, context):
                     [
                         InlineKeyboardButton(text="AL", url="https://t.me/IDnyaAL"),
                     ],
-                    [
-                        InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                        InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
-                    ],
-                    [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
                     ]
                 ]
