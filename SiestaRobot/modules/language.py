@@ -10,7 +10,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from SiestaRobot import dispatcher
 from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 from SiestaRobot.language import get_string, get_languages, get_language
-
+from SiestaRobot.modules.language import gs 
 
 
 def paginate(
@@ -69,6 +69,11 @@ def lang_button(update: Update, _) -> None:
     query.message.edit_text(
         gs(chat.id, "set_chat_lang").format(get_language(lang)[:-3])
     )
+
+def helps(chat): 
+    return gs(chat, "lang_help") 
+
+__mod_name__ = "Lᴀɴɢᴜᴀɢᴇ"
 
 
 SETLANG_HANDLER = CommandHandler("setlang", set_lang)
