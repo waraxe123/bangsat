@@ -823,6 +823,19 @@ feds_help: |
     ❂ /fedownerhelp: Provides help for fed creation and owner only commands
     ❂ /fedadminhelp: Provides help for fed administration commands
     ❂ /feduserhelp: Provides help for commands anyone can use
+lang_help: |
+    ──「 Language 」──
+
+    Not every group speaks fluent english; some groups would rather have Fumika respond in their own language.
+
+    This is where translations come in; you can change the language of most replies to be in the language of your choice!
+
+    Available languages are:
+    ❂ ID (Indonesia)
+    ❂ EN (English)
+
+    Admin commands: 
+    ❂ /setlang (language): Set your preferred language.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
