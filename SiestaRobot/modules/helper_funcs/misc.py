@@ -10,7 +10,6 @@ import zlib
 import base64
 from urllib.parse import urlparse, urljoin, urlunparse
 import base58
-from Crypto.Cipher import AES
 from math import ceil
 
 
