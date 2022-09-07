@@ -977,11 +977,12 @@ tts_help: |
 nsfw_help: |
     ──「 Anti NSFW 」──
 
-   ❂ /antinsfw <on/off>: Turn This Module On/Off.
-   ❂ /nsfwscan: Manually Scan An Image/Sticker/Document.
+    *Admin Command:*
+    ❂ /antinsfw <on/off>: Turn This Module On/Off.
+    ❂ /nsfwscan: Manually Scan An Image/Sticker/Document.
 
-   Turn on Anti-NSFW will make Asuna protect your groups from any NSFW content.
-   This Anti-NSFW will delete all message even from admins it self.
+    Turn on Anti-NSFW will make Hito protect your groups from any NSFW content.
+    This Anti-NSFW will delete all message even from admins it self.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
