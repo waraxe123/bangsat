@@ -991,7 +991,17 @@ mention_help: |
     ❂ /all <word> - Mentions All
     ❂ /cancel - Stop Mentions
 
-    Example : /all Up There is TMO.|
+    Example : /all Up There is TMO.
+asupan_help: |
+    ──「 Asupan 」──
+
+    *Command for Asupan Module:*
+    ❂ /ngaji - Looking for the qur'an to listen
+    ❂ /asupan - Searching Intake Tiktok Videos
+    ❂ /ayang - Looking for Ayang's Photos <This module is specifically for single guys>
+    ❂ /ppcp - Looking for PP Couple For Your Bhestie
+
+    Warning ️: This Module is For Entertainment Only !!!
 
 
 # Admin.py Variabel Text
