@@ -2,8 +2,9 @@ import asyncio
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from config import config
 
-CHANNEL_ID = SiestaRobot.Config.F_SUB_CHANNEL
+CHANNEL_ID = Config.F_SUB_CHANNEL
 
 
 async def ForceSub(bot: Client, event: Message):
