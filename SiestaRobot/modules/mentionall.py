@@ -8,6 +8,7 @@ from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
 
 from SiestaRobot import telethn as Client
+from SiestaRobot.modules.language import gs 
 
 spam_chats = []
 
@@ -84,4 +85,7 @@ async def cancel_spam(event):
         return await event.respond("Stopped.")
 
 
-__mod_name__ = "Mentions"
+def helps(chat): 
+    return gs(chat, "mention_help") 
+
+__mod_name__ = "Mᴇɴᴛɪᴏɴs"
