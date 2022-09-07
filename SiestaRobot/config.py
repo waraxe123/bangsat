@@ -1,11 +1,6 @@
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 import json
 import os
-from os import environ
-
-class Config(object):
-#The Telegram channel id you want focus user.(User can't start your bot without join it)
-        F_SUB_CHANNEL = environ.get("F_SUB_CHANNEL")
 
 
 def get_user_list(config, key):
