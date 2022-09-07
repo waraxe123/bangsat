@@ -11,6 +11,7 @@ from telethon import functions
 from SiestaRobot.events import register
 from SiestaRobot import telethn as tbot, OWNER_ID
 from telethon import Button, custom, events
+from SiestaRobot.modules.language import gs 
 
 hehes = ChatBannedRights(
     until_date=None,
@@ -153,7 +154,7 @@ async def job_open():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By @emiexrobot**"
+              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By @HitoXRobot**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -162,6 +163,11 @@ async def job_open():
         )
         except Exception as e:
             logger.info(f"Unable To Open Group {pro.chat_id} - {e}")
+
+def helps(chat): 
+    return gs(chat, "night_help") 
+
+__mod_name__ = "NɪɢʜᴛMᴏᴅᴇ"
 
 # Run everyday at 06
 scheduler = AsyncIOScheduler(timezone="Asia/Jakarta")
