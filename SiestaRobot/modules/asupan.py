@@ -140,6 +140,47 @@ async def _(event):
 
         await memeks.edit("Lu Haram Jadi Gak Bisa Denger Qur'an..")
 
+
+@register(pattern="^/ppcp ?(.*)")
+
+async def _(event):
+
+    memeks = await event.reply("**Sabar Tod, Lagi Gua Cari...🔍**") 
+
+    try:
+
+        asupannya = [
+
+            asupan
+
+            async for asupan in ubot2.iter_messages(
+
+            "@DatabasePPCP", filter=InputMessagesFilterPhotos
+
+            )
+
+        ]
+
+        kontols = random.choice(asupannya)
+
+        pantek = await ubot2.download_media(kontols)
+
+        await tbot.send_file(
+
+            event.chat.id, 
+
+            caption="Nih Si Paling Couple 😏", 
+
+            file=pantek
+
+            )
+
+        await memeks.delete()
+
+    except Exception:
+
+        await memeks.edit("Tangan Lu Bau Tai, Cuci Tangan Dulu Gih..")
+
 def helps(chat):
     return gs(chat, "asupan_help")
 
