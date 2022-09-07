@@ -836,7 +836,106 @@ lang_help: |
 
     Perintah admin:
     ❂ /setlang (bahasa): Atur bahasa pilihan Anda.
+distater_help: |
+    ──「 Bencana 」──
 
+    ⚠️Pemberitahuan:
+    Perintah yang tercantum di sini hanya berfungsi untuk pengguna dengan akses khusus terutama digunakan untuk pemecahan masalah, tujuan debugging.
+    Admin grup/pemilik grup tidak memerlukan perintah ini.
+
+    Daftar semua pengguna khusus:
+    ❂ /beater: Daftar semua Beater
+    ❂ /ksatria: Daftar semua Ksatria Sumpah Darah
+    ❂ /vanguard: Mencantumkan semua Vanguard
+    ❂ /recon: Mencantumkan semua Recon
+    ❂ /survivor: Daftar semua anggota SAO Survivor
+ ❂ /addbeater: Menambahkan pengguna ke Beater
+  ❂/addknight: Menambahkan pengguna ke Blood Oath Knight
+  ❂/addvanguard: Menambahkan pengguna ke Vanguard
+  ❂/addrecon: Menambahkan pengguna ke Recon
+  ❂/rmbeater: Menghapus pengguna dari Beater
+  ❂/rmknight: Menghapus pengguna dari Blood Oath Knight
+  ❂/rmvanguard: Hapus pengguna dari Vanguard
+  ❂/rmrecon: Hapus pengguna dari Recon
+  Add SAO Survivor tidak ada, dev harus tahu cara menambahkan sendiri
+
+ ping:
+ ❂ /ping: mendapatkan waktu ping bot ke server telegram
+  ❂/pingall: mendapatkan semua waktu ping yang terdaftar
+
+Siaran: (Hanya pemilik bot)
+ Catatan: Ini mendukung penurunan harga dasar
+  ❂/broadcastall: Siaran di mana-mana
+  ❂/broadcastusers: Menyiarkan juga semua pengguna
+  ❂/broadcastgroups: Menyiarkan juga semua grup
+
+ Info Grup:
+  ❂/groups: Daftar grup dengan Nama, ID, anggota dihitung sebagai txt
+  ❂/leave <ID>: Keluar dari grup, ID harus memiliki tanda hubung
+  ❂/stats: Menampilkan statistik bot secara keseluruhan
+ ❂ /getchats: Mendapatkan daftar nama grup yang pernah dilihat pengguna. Hanya pemilik bot
+  ❂/ginfo username/link/ID: Menarik panel info untuk seluruh grup
+
+ Kontrol akses:
+  ❂/ignore: Membuat daftar hitam pengguna agar tidak menggunakan bot sepenuhnya
+  ❂/lockdown <off/on>: Mengalihkan penambahan bot ke grup
+  ❂/notice: Menghapus pengguna dari daftar hitam
+  ❂/ignoredlist: Daftar pengguna yang diabaikan
+
+ Tes kecepatan:
+  ❂/speedtest: Menjalankan tes kecepatan dan memberi Anda 2 opsi untuk dipilih, output teks atau gambar
+
+Pemuatan modul:
+  ❂/listmodules: Daftar nama semua modul
+  ❂/load modulename: Memuat modul tersebut ke memori tanpa memulai ulang.
+  ❂/unload modulename: Memuat modul tersebut dari memori tanpa me-restart memori tanpa me-restart bot
+
+ Perintah jarak jauh:
+  ❂/rban: grup pengguna: Larangan jarak jauh
+ ❂ /runban: grup pengguna: Pembatalan jarak jauh
+  ❂/rpunch: grup pengguna: Pukulan jarak jauh
+  ❂/rmute: grup pengguna: Bisu jarak jauh
+ ❂ /runmute: grup pengguna: Pembatalan suara jarak jauh
+
+ Windows yang dihosting sendiri saja:
+  ❂/reboot: Memulai ulang layanan bot
+  ❂/gitpull: Menarik repo dan kemudian memulai kembali layanan bot
+
+Chatbot:
+  ❂/listaichats: Mencantumkan obrolan yang mengaktifkan mode obrolan
+ 
+ Debug dan Shell:
+  ❂/debug <on/off>: Mencatat perintah ke update.txt
+ ❂ /logs: Jalankan ini di grup dukungan untuk mendapatkan log di pm
+  ❂/eval: Cukup jelas
+  ❂/sh: Menjalankan perintah shell
+  ❂/shell: Menjalankan perintah shell
+ ❂ /clearlocals: Sesuai namanya
+ ❂ /dbcleanup: Menghapus akses dan grup yang dihapus dari db
+ ❂ /py: Menjalankan kode python
+ 
+ Larangan Global:
+  ❂/gban <id> <reason>: Gban pengguna, bekerja dengan membalas juga
+  ❂/ungban: Memblokir pengguna, penggunaan yang sama seperti gban
+ ❂ /gbanlist: Menampilkan daftar pengguna yang diblokir
+
+ Teks Biru Global
+  ❂/gignoreblue: <word>: Secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Hito.
+  ❂/ungignoreblue: <word>: Hapus perintah tersebut dari daftar pembersihan global
+
+ Hito Inti
+ Hanya pemilik
+  ❂/send: <nama modul>: Kirim modul
+  ❂/install: <reply to a .py>: Instal modul
+
+Pengaturan Heroku
+ Hanya pemilik
+  /penggunaan: Periksa sisa jam heroku dyno Anda.
+  /lihat var <var>: Dapatkan variabel yang ada, gunakan hanya di grup pribadi Anda!
+  /varlist Dapatkan variabel yang ada, gunakan hanya di grup pribadi Anda!
+  /setvar <newvar> <variable>: Tambahkan variabel baru atau perbarui variabel nilai yang ada.
+  /delvar <var>: Menghapus variabel yang ada.
+  /logs Dapatkan log heroku dyno.
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
 set_error: "Kesalahan! {}."
