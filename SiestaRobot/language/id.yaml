@@ -928,8 +928,8 @@ distater_help: |
 
     Pengaturan Heroku
     Hanya pemilik
-    ❂ /penggunaan: Periksa sisa jam heroku dyno Anda.
-    ❂ /lihat var <var>: Dapatkan variabel yang ada, gunakan hanya di grup pribadi Anda!
+    ❂ /usage: Periksa sisa jam heroku dyno Anda.
+    ❂ /see var <var>: Dapatkan variabel yang ada, gunakan hanya di grup pribadi Anda!
     ❂ /varlist Dapatkan variabel yang ada, gunakan hanya di grup pribadi Anda!
     ❂ /setvar <newvar> <variable>: Tambahkan variabel baru atau perbarui variabel nilai yang ada.
     ❂ /delvar <var>: Menghapus variabel yang ada.
@@ -944,6 +944,18 @@ bug_help: |
     ❂ /bug <reason> - Untuk Melaporkan Bug
 
     Contoh : /bug Music Assistant tidak naik vcg
+tod_help: |
+    ──「 Truth Or Dare 」──
+
+    Truth Or Dare adalah Modul Permainan Kata Berbentuk Soal dan Tantangan
+    Modul ini seperti Truth Or Dare Bot
+
+    Memerintah :
+    ❂ /truth - Pertanyaan
+    ❂ /dare - Tantangan
+
+    Notes : Kalau ada saran kata-kata truth or dare, bisa Pc @IDnyaAL biar bisa ditambahkan.
+
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
