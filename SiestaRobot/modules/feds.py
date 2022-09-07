@@ -2382,8 +2382,10 @@ def fed_user_help(update: Update, context: CallbackContext):
         parse_mode=ParseMode.MARKDOWN,
     )
 
+def helps(chat): 
+    return gs(chat, "feds_help")
 
-__mod_name__ = "Federations"
+__mod_name__ = "Fᴇᴅᴇʀᴀᴛɪᴏɴs"
 
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed, run_async=True)
