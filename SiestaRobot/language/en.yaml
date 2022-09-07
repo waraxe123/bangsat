@@ -983,6 +983,16 @@ nsfw_help: |
 
     Turn on Anti-NSFW will make Hito protect your groups from any NSFW content.
     This Anti-NSFW will delete all message even from admins it self.
+mention_help: |
+    ──「 Mentions 」──
+
+    Mentions all is a module to tag all members of your group; same as bot mentions.
+    This is help menu for Mentions.
+    ❂ /all <word> - Mentions All
+    ❂ /cancel - Stop Mentions
+
+    Example : /all Up There is TMO.|
+
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
