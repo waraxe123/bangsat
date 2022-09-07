@@ -10,9 +10,13 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from PrimeMega.events import register
+from telethon.tl.types import InputMessagesFilterVoice
 
-from PrimeMega import telethn as tbot, ubot2                 
+from SiestaRobot.events import register
+
+from SiestaRobot import telethn as tbot, ubot2 
+
+from SiestaRobot.modules.language import gs                
 
 @register(pattern="^/asupan ?(.*)")
 
@@ -53,3 +57,92 @@ async def _(event):
     except Exception:
 
         await memeks.edit("Asupannya gaada koncol")
+
+
+@register(pattern="^/ayang ?(.*)")
+
+async def _(event):
+
+    memeks = await event.reply("**Sabar Mek, Lagi Cari Ayang...🔍**") 
+
+    try:
+
+        asupannya = [
+
+            asupan
+
+            async for asupan in ubot2.iter_messages(
+
+            "@CeweLogoPack", filter=InputMessagesFilterPhotos
+
+            )
+
+        ]
+
+        kontols = random.choice(asupannya)
+
+        pantek = await ubot2.download_media(kontols)
+
+        await tbot.send_file(
+
+            event.chat.id, 
+
+            caption="Nih Ayangnya, Jan Ditakalin Ya Mek 😏", 
+
+            file=pantek
+
+            )
+
+        await memeks.delete()
+
+    except Exception:
+
+        await memeks.edit("Haha Kasian Bet Lu Gak Punya Ayang..")
+
+
+@register(pattern="^/ngaji ?(.*)")
+
+async def _(event):
+
+    memeks = await event.reply("**Alhamdulillah, Wait Ku Cari Dulu...🔍**") 
+
+    try:
+
+        asupannya = [
+
+            asupan
+
+            async for asupan in ubot2.iter_messages(
+
+            "@kureenkeryam", filter=InputMessagesFilterVoice
+
+            )
+
+        ]
+
+        kontols = random.choice(asupannya)
+
+        pantek = await ubot2.download_media(kontols)
+
+        await tbot.send_file(
+
+            event.chat.id, 
+
+            caption="Dengarkan Dengan Khusyu Kak 😌", 
+
+            file=pantek
+
+            )
+
+        await memeks.delete()
+
+    except Exception:
+
+        await memeks.edit("Lu Haram Jadi Gak Bisa Denger Qur'an..")
+
+def helps(chat):
+    return gs(chat, "asupan_help")
+
+__mod_name__ = "Asᴜᴘᴀɴ"
+
+
