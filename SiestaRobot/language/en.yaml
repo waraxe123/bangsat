@@ -944,6 +944,17 @@ bug_help: |
     ❂ /bug <reason> - To Report Bugs
 
     Example : /bug Music Assistant not up to vcg
+tod_help: |
+    ──「 Truth Or Dare 」──
+
+    Truth Or Dare is a Word Game Module in the form of Questions and Challenges
+    This Module is like Truth Or Dare Bot
+
+    Command :
+    ❂ /truth - Question
+    ❂ /dare - Challenges
+
+    Notes : If you have suggestions for words for truth or dare, you can Pc @IDnyaAL so that they can be added.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
