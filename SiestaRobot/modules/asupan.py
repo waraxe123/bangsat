@@ -114,7 +114,7 @@ async def _(event):
 
             async for asupan in ubot2.iter_messages(
 
-            "@kureenkeryam", filter=InputMessagesFilterVoice
+            "@DatabaseQuran", filter=InputMessagesFilterVoice
 
             )
 
