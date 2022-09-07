@@ -848,7 +848,6 @@ distater_help: |
     ❍ /knight: Lists all Blood Oath Knight
     ❍ /vanguard: Lists all Vanguard
     ❍ /recon: Lists all Recon
-    ❍ /survivor: Lists all SAO Survivor members
     ❍ /addbeater: Adds a user to Beater
     ❍ /addknight: Adds a user to Blood Oath Knight
     ❍ /addvanguard: Adds a user to Vanguard
@@ -857,7 +856,6 @@ distater_help: |
     ❍ /rmknight: Remove a user from Blood Oath Knight
     ❍ /rmvanguard: Remove a user from Vanguard
     ❍ /rmrecon: Remove a user from Recon
-    ❍ Add SAO Survivor doesnt exist, devs should know how to add themselves
 
     Ping:
     ❍ /ping: gets ping time of bot to telegram server
