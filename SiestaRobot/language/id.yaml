@@ -823,6 +823,19 @@ feds_help: |
     ❂ /fedownerhelp: Memberikan bantuan untuk pembuatan feed dan perintah pemilik saja
     ❂ /fedadminhelp: Memberikan bantuan untuk perintah administrasi makan
     ❂ /feduserhelp: Memberikan bantuan untuk perintah yang dapat digunakan siapa saja
+lang_help: |
+    ──「 Bahasa 」──
+
+    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Hito menanggapi dalam bahasa mereka sendiri.
+
+    Di sinilah terjemahan masuk; Anda dapat mengubah bahasa sebagian besar balasan menjadi bahasa pilihan Anda!
+
+    Bahasa yang tersedia adalah:
+    ID (Bahasa Indonesia)
+    EN (Bahasa Inggris)
+
+    Perintah admin:
+    ❂ /setlang (bahasa): Atur bahasa pilihan Anda.
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
