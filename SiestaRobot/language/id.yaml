@@ -806,6 +806,23 @@ nsfw_help: |
     ❂ /smug: Mengirim GIF Smug Acak.
     ❂ /baka: Mengirim GIF Baka Shout Acak.
     ❂ /dva: Mengirim Gambar sumber D.VA Acak.
+feds_help: |
+    ──「 Federasi 」──
+
+    Semuanya menyenangkan, sampai spammer mulai memasuki grup Anda, dan Anda harus memblokirnya. Maka Anda harus mulai melarang lebih banyak, dan lebih banyak lagi, dan itu menyakitkan.
+    Tapi kemudian Anda memiliki banyak grup, dan Anda tidak ingin spammer ini berada di salah satu grup Anda - bagaimana Anda bisa menanganinya? Apakah Anda harus memblokirnya secara manual, di semua grup Anda?
+
+    Tidak lagi! Dengan Federasi, Anda dapat membuat larangan dalam satu obrolan tumpang tindih dengan semua obrolan lainnya.
+
+    Anda bahkan dapat menunjuk admin federasi, sehingga admin tepercaya Anda dapat melarang semua spammer dari obrolan yang ingin Anda lindungi.
+
+
+    *Perintah:*
+
+    FBI sekarang dibagi menjadi 3 bagian untuk kemudahan Anda.
+    ❂ /fedownerhelp: Memberikan bantuan untuk pembuatan feed dan perintah pemilik saja
+    ❂ /fedadminhelp: Memberikan bantuan untuk perintah administrasi makan
+    ❂ /feduserhelp: Memberikan bantuan untuk perintah yang dapat digunakan siapa saja
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
