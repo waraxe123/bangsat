@@ -961,8 +961,19 @@ night_help: |
     Catatan: Obrolan Mode Malam ditutup Secara otomatis pada pukul 12 siang (IST)
     Secara otomatis dibuka pada pukul 6 pagi (Zona WAKTU STANDAR INDONESIA) Untuk Mencegah Spam Malam.
     ❂ /nightmode: on/off
+tts_help: |
+    ──「 TTS & STT」──
 
-
+    Saya dapat mengonversi teks menjadi suara dan suara menjadi teks..
+    ❂ /tts <lang code>: Membalas pesan apa pun untuk mendapatkan keluaran teks ke ucapan
+    ❂ /stt: Ketik membalas pesan suara (hanya mendukung bahasa Inggris) untuk mengekstrak teks darinya.
+    Kode Bahasa
+    af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
+    et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hai,hmn,hr,ht,hu,hy,
+    id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
+    ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
+    sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
+    vi,xh,yi,yo,zh,zh_CN,zh_TW,zu
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
