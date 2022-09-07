@@ -934,6 +934,16 @@ distater_help: |
     ❂ /setvar <newvar> <variable>: Tambahkan variabel baru atau perbarui variabel nilai yang ada.
     ❂ /delvar <var>: Menghapus variabel yang ada.
     ❂ /logs Dapatkan log heroku dyno.
+bug_help: |
+    ──「 Bug Report 」──
+
+    Bug Report Merupakan modul untuk melaporkan bug pada bot Hito
+    Supaya botnya bisa diperbaiki secepatnya
+
+    Memerintah :
+    ❂ /bug <reason> - Untuk Melaporkan Bug
+
+    Contoh : /bug Music Assistant tidak naik vcg
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
