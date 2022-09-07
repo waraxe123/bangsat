@@ -17,6 +17,7 @@ from SiestaRobot import (
     SUPPORT_CHAT as log,
 )
 from SiestaRobot.utils.errors import capture_err
+from SiestaRobot.modules.language import gs 
 
 
 def content(msg: Message) -> [None, str]:
@@ -128,5 +129,7 @@ async def close_send_photo(_, CallbackQuery):
     else:
         await CallbackQuery.message.delete()
         
+def helps(chat): 
+    return gs(chat, "bug_help") 
 
-__mod_name__ = "Bug"
+__mod_name__ = "Bᴜɢ Rᴇᴘᴏʀᴛ"
