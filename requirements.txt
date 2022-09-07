@@ -63,9 +63,6 @@ countryinfo
 html2text
 bs4
 base58
-zlib
-uuid
-uuid4
 redis
 pySmartDL
 bing_image_downloader
