@@ -934,6 +934,16 @@ distater_help: |
     ❍ /setvar <newvar> <variable>: Add new variable or update existing value variable.
     ❍ /delvar <var>: Delete existing variable.
     ❍ /logs Get heroku dyno logs.
+bug_help: |
+    ──「 Bug Report 」──
+
+    Bug Report Is a module for reporting bugs on Hito bots
+    So that the bot can be fixed as soon as possible
+
+    Command : 
+    ❂ /bug <reason> - To Report Bugs
+
+    Example : /bug Music Assistant not up to vcg
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
