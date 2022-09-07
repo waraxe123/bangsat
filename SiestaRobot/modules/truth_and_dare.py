@@ -5,6 +5,7 @@ from SiestaRobot import dispatcher
 from telegram import ParseMode, Update, Bot
 from SiestaRobot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
+from SiestaRobot.modules.language import gs 
 
 
 def truth(update: Update, context: CallbackContext):
@@ -15,6 +16,11 @@ def truth(update: Update, context: CallbackContext):
 def dare(update: Update, context: CallbackContext):
     args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.DARE))
+
+def helps(chat): 
+    return gs(chat, "tod_help")
+
+__mod_name__ = "Tʀᴜᴛʜ/Dᴀʀᴇ"
 
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
