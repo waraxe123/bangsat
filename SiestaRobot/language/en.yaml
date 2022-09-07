@@ -974,6 +974,14 @@ tts_help: |
     ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
     sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
     vi,xh,yi,yo,zh,zh_CN,zh_TW,zu
+nsfw_help: |
+    ──「 Anti NSFW 」──
+
+   ❂ /antinsfw <on/off>: Turn This Module On/Off.
+   ❂ /nsfwscan: Manually Scan An Image/Sticker/Document.
+
+   Turn on Anti-NSFW will make Asuna protect your groups from any NSFW content.
+   This Anti-NSFW will delete all message even from admins it self.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
