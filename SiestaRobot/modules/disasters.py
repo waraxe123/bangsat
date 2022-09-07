@@ -23,6 +23,7 @@ from SiestaRobot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html
+from SiestaRobot.modules.language import gs 
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "SiestaRobot/elevated_users.json")
 
@@ -535,6 +536,10 @@ def devlist(update: Update, context: CallbackContext):
             pass
     m.edit_text(reply, parse_mode=ParseMode.HTML)
 
+def helps(chat): 
+    return gs(chat, "distater_help")
+
+__mod_name__ = "Dɪsᴀsᴛᴇʀs"
 
 SUDO_HANDLER = CommandHandler(("addsudo", "addemperor"), addsudo, run_async=True)
 SUPPORT_HANDLER = CommandHandler(("addsupport", "addcaptain"), addsupport, run_async=True)
@@ -577,7 +582,6 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "Disasters"
 __handlers__ = [
     SUDO_HANDLER,
     SUPPORT_HANDLER,
