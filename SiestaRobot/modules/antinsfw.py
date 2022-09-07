@@ -8,8 +8,7 @@ from SiestaRobot.utils.errors import capture_err
 from SiestaRobot.utils.permissions import adminsOnly
 from SiestaRobot.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 from SiestaRobot.utils.filter_groups import nsfw_detect_group
-
-__mod_name__ = "Aɴᴛɪ-ɴsꜰᴡ​"
+from SiestaRobot.modules.language import gs 
 
 async def get_file_id_from_message(message):
     file_id = None
@@ -164,3 +163,8 @@ async def nsfw_enable_disable(_, message):
         await message.reply_text(
             "`Unknown Suffix, Use /antinsfw [enable|disable]`"
         )
+
+def helps(chat): 
+    return gs(chat, "antinsfw_help") 
+
+__mod_name__ = "Aɴᴛɪ-ɴsꜰᴡ​"
