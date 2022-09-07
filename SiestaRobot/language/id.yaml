@@ -983,6 +983,16 @@ nsfw_help: |
 
     Mengaktifkan Anti-NSFW akan membuat Hito melindungi grup Anda dari konten NSFW apa pun.
     Anti-NSFW ini akan menghapus semua pesan bahkan dari admin itu sendiri.
+mention_help: |
+    ──「 Mentions 」──
+
+    Mentions all adalah modul untuk menandai semua anggota grup Anda; sama seperti bot mentions.
+    Ini adalah menu bantuan untuk Mentions.
+    ❂ /all <word> - Sebutkan Semua
+    ❂ /batal - Berhenti Menyebut
+
+    Contoh : /all Naik Ada TMO.
+
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
