@@ -955,6 +955,13 @@ tod_help: |
     ❂ /dare - Tantangan
 
     Notes : Kalau ada saran kata-kata truth or dare, bisa Pc @IDnyaAL biar bisa ditambahkan.
+night_help: |
+    ──「 Mode Malam 」──
+
+    Catatan: Obrolan Mode Malam ditutup Secara otomatis pada pukul 12 siang (IST)
+    Secara otomatis dibuka pada pukul 6 pagi (Zona WAKTU STANDAR INDONESIA) Untuk Mencegah Spam Malam.
+    ❂ /nightmode: on/off
+
 
 
 # Admin.py Variabel Text
