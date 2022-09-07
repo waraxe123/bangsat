@@ -992,6 +992,14 @@ mention_help: |
     ❂ /batal - Berhenti Menyebut
 
     Contoh : /all Naik Ada TMO.
+asupan_help: |
+    ──「 Asupan 」──
+
+    *Perintah untuk Modul Asupan:*
+    ❂ /ngaji - Mencari qur'an untuk didengarkan
+    ❂ /asupan - Mencari Intake Video Tiktok
+    ❂ /ayang - Mencari Foto Ayang 
+    ❂ /ppcp - Mencari Pasangan PP Untuk Pacar Anda
 
 
 # Admin.py Variabel Text
