@@ -535,11 +535,14 @@ def Source_about_callback(update, context):
                 disable_web_page_preview=False,
         )
     elif query.data == "mm_admin":
+        first_name = update.effective_user.first_name
         query.message.edit_text(
-            text=gs(chat.id, "m_admin"),
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
+                 text=gs(chat.id, "m_admin").format(
+                     escape_markdown(first_name),
+                     escape_markdown(uptime),
+                     sql.num_users(),
+                     sql.num_chats()),
+                 reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
@@ -548,10 +551,14 @@ def Source_about_callback(update, context):
             ),
         )
     elif query.data == "mm_play":
+        first_name = update.effective_user.first_name
         query.message.edit_text(
-            text=gs(chat.id, "m_play"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
+                text=gs(chat.id, "m_play").format(
+                    escape_markdown(first_name),
+                    escape_markdown(uptime),
+                    sql.num_users(),
+                    sql.num_chats()),
+                reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
@@ -560,10 +567,14 @@ def Source_about_callback(update, context):
             ),
         )
     elif query.data == "mm_bot":
+        first_name = update.effective_user.first_name
         query.message.edit_text(
-            text=gs(chat.id, "m_bot"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
+                text=gs(chat.id, "m_bot").format(
+                    escape_markdown(first_name),
+                    escape_markdown(uptime),
+                    sql.num_users(),
+                    sql.num_chats()),
+                reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
@@ -572,10 +583,14 @@ def Source_about_callback(update, context):
             ),
         )
     elif query.data == "mm_extra":
+        first_name = update.effective_user.first_name
         query.message.edit_text(
-            text=gs(chat.id, "m_extra"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
+                text=gs(chat.id, "m_extra").format(
+                    escape_markdown(first_name),
+                    escape_markdown(uptime),
+                    sql.num_users(),
+                    sql.num_chats()),
+                reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
