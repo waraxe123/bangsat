@@ -499,7 +499,7 @@ def Source_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "manage_button"), callback_data="help_back"),
-                        InlineKeyboardButton(text=gs(chat.id, "music_button"), calback_data="source_back"),
+                        InlineKeyboardButton(text=gs(chat.id, "music_button"), url="https://t.me/IDnyaAL"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
