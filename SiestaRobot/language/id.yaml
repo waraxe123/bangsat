@@ -61,7 +61,12 @@ pm_about_credit_text: |
 
   Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat Hito
 pm_help_text: |
-  *✺ Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik. ✺*
+   💢 Hito Bisa Mengelola Grup Kamu 💢
+
+   Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik.
+   » /play : Mulai Aku !!
+   » /help : Perintah Untuk Membantu Kamu
+   » /settings : Menampilkan Pengaturan Obrolan Saat Ini
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
 
 # Group Help Text
@@ -92,6 +97,10 @@ about_button: "ᴛᴇɴᴛᴀɴɢ ʜɪᴛᴏ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
 music_button: "ᴍᴜsɪᴄ 🎶"
+btn_admin: "ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴs"
+btn_play: "ᴘᴇʀɪɴᴛᴀʜ ᴘʟᴀʏ"
+btn_bot: "ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ"
+btn_extra: "ᴘᴇʀɪɴᴛᴀʜ ᴇxᴛʀᴀ"
 
 # MODULES
 admin_help: |
@@ -1014,6 +1023,83 @@ pm_hito_help_text: |
     Saya adalah Bot Manajemen Grup Modular Dengan Beberapa Tambahan Menyenangkan Dan Dapat Memutar Musik Di Grup Anda!
 
     Lihat Di Bawah Untuk Ide Tentang Beberapa Hal yang Dapat Saya Bantu.
+m_admin: |
+    ✅Perintah Admin: 
+    c adalah singkatan dari pemutaran saluran.
+
+    ❂ /pause atau /cpause - Menjeda musik yang sedang diputar.
+    ❂ /resume atau /cresume- Melanjutkan musik yang dijeda.
+    ❂ /mute atau /cmute- Mematikan musik yang diputar.
+    ❂ /unmute atau /cunmute- Mengaktifkan musik yang dimatikan.
+    ❂ /skip atau /cskip- Lewati musik yang sedang diputar.
+    ❂ /stop atau /cstop- Menghentikan pemutaran musik.
+    ❂ /shuffle atau /cshuffle- Secara acak mengacak daftar putar yang antri.
+  
+    ✅Lewati Spesifik.
+    ❂ /skip atau /cskip Nomor(contoh: 3)
+    - Melompati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
+  
+    ✅Pemutaran Putaran:
+    ❂ /loop atau /cloop enable/disable atau Angka antara 1-10 - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default untuk 10 kali.
+ 
+    ✅Pengguna Auth:
+    Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
+    ❂ /auth Nama Pengguna - Tambahkan pengguna ke DAFTAR AUTH grup.
+    ❂ /unauth Nama Pengguna - Menghapus pengguna dari DAFTAR AUTH grup.
+    ❂ /authusers - Periksa DAFTAR AUTH grup.
+m_play: |
+    ✅Perintah Mainkan:
+    cplay atau cstream singkatan dari channel play.
+    vplay adalah singkatan dari pemutaran video.
+    ❂ /play atau /vplay atau /cplay - Bot akan mulai memainkan kueri yang Anda berikan pada obrolan suara.
+    ❂ /stream atau /cstream - Streaming tautan langsung di obrolan suara.
+    ❂ /channelplay Nama pengguna atau id obrolan atau Nonaktifkan - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
+ 
+    ✅Daftar Putar Server Bot:
+    ❂ /playlist - Periksa Daftar Putar Tersimpan Anda Di Server.
+    ❂ /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
+    ❂ /play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server.
+m_bot: |
+    ✅Perintah Bot:
+    ❂ /mstats - Dapatkan Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat, dll.
+    ❂ /sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
+    ❂ /lyrics Music Name - Mencari Lirik untuk Musik tertentu di web.
+    ❂ /song Nama Trek atau Tautan YT - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
+ 
+    c adalah singkatan dari pemutaran saluran.
+    ❂ /queue atau /cqueue- Periksa Daftar Antrian Musik.
+m_extra: |
+    ✅Perintah Ekstra:
+    ❂ /mstart - Mulai Bot Musik.
+    ❂ /mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
+    ❂ /mping- Ping Bot dan periksa Ram, Cpu dll statistik Bot.
+
+    ✅Pengaturan Grup:
+    ❂ /msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
+
+    🔗 Opsi di Pengaturan:
+
+    1️⃣ Anda dapat mengatur Kualitas Audio yang ingin Anda streaming di obrolan suara.
+
+    2️⃣ Anda dapat mengatur Kualitas Video yang ingin Anda streaming di obrolan suara.
+
+    3️⃣ Pengguna Auth:- Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll)
+
+    4️⃣ Mode Bersih: Saat diaktifkan, hapus pesan bot setelah 5 menit dari grup Anda untuk memastikan obrolan Anda tetap bersih dan baik.
+
+    5️⃣ Command Clean : Saat diaktifkan, Bot akan segera menghapus perintah yang dijalankannya (/play, /pause, /shuffle, /stop dll).
+
+    6️⃣ Pengaturan Putar:
+   
+    ❂ /playmode - Dapatkan panel pengaturan pemutaran lengkap dengan tombol di mana Anda dapat mengatur pengaturan pemutaran grup Anda.
+
+    Opsi dalam mode putar:
+
+    1️⃣ Mode Pencarian  Direct or Inline - Mengubah mode pencarian saat Anda memberikan mode /play.
+ 
+    2️⃣ Mode Putar  Grup atau Saluran - Mengubah mode Putar Anda ke saluran atau grup dan streaming musik hanya di sana.
+ 
+    3️⃣ Tipe Putar  Semua Orang atau Admin - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara.
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
