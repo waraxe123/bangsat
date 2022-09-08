@@ -499,7 +499,7 @@ def Source_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "manage_button"), callback_data="help_back"),
-                        InlineKeyboardButton(text=gs(chat.id, "music_button"), url="https://t.me/IDnyaAL"),
+                        InlineKeyboardButton(text=gs(chat.id, "music_button"), callback_data="source_back"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -510,7 +510,7 @@ def Source_about_callback(update, context):
     elif query.data == "source_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
-                text=gs(chat.id, "pm_start_text").format(
+                text=gs(chat.id, "music_text").format(
                     escape_markdown(first_name),
                     escape_markdown(uptime),
                     sql.num_users(),
@@ -518,14 +518,15 @@ def Source_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_admin"), callback_data="m_admin"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_play"), callback_data="m_play"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_bot"), callback_data="m_bot"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_extra"), callback_data="m_extra"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_"),
                         ]
                     ]
                 ),
