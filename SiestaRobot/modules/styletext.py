@@ -3,6 +3,7 @@ from SiestaRobot.modules.disable import DisableAbleCommandHandler
 from SiestaRobot.modules.helper_funcs.alternate import typing_action
 from telegram import ParseMode
 from telegram.ext import run_async
+from SiestaRobot.modules.language import gs
 
 normiefont = [
     "a",
@@ -473,7 +474,10 @@ def lined(update, context):
     else:
         message.reply_text(string)
 
-__mod_name__ = "Styletext"
+def helps(chat):
+    return gs(chat, "style_help")
+
+__mod_name__ = "SᴛʏʟᴇTᴇxᴛ"
 
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify, run_async=True)
 BUBBLE_HANDLER = DisableAbleCommandHandler("bubble", bubble, run_async=True)
