@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="hito_help"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="siesta_help"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
@@ -413,7 +413,7 @@ def siesta_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="hito_help"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="siesta_help"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
@@ -486,10 +486,15 @@ def siesta_about_callback(update, context):
             ),
         )
 
-     elif query.data == "hito_help":
-         query.message.edit_text(
+def siesta_help_callback(update, context):
+    query = update.callback_query
+    chat = update.effective_chat
+    uptime = get_readable_time((time.time() - StartTime))
+    if query.data == "siesta_help":
+        query.message.edit_text(
             text=gs(chat.id, "pm_hito_help_text"),
             parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -497,7 +502,7 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text=gs(chat.id, "music_button"), calback_data="hito_music"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
                     ]
                 ]
             ),
@@ -537,7 +542,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="hito_help"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="siesta_help"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
