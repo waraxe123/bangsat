@@ -413,7 +413,7 @@ def siesta_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="hito_help"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
@@ -490,7 +490,6 @@ def siesta_about_callback(update, context):
          query.message.edit_text(
             text=gs(chat.id, "pm_hito_help_text"),
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -538,7 +537,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="hito_help"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
