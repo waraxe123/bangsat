@@ -1,5 +1,4 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from SiestaRobot import bot, CMD_HELP
 from SiestaRobot.events import register
 
 
