@@ -2,7 +2,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from SiestaRobot.events import register
 
 
-@register(outgoing=True, pattern="^/tt(?: |$)(.*)")
+@register(pattern=("/tt"))
 async def _(event):
     if event.fwd_from:
         return
