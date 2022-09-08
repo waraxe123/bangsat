@@ -1023,8 +1023,13 @@ pm_hito_help_text: |
     Saya adalah Bot Manajemen Grup Modular Dengan Beberapa Tambahan Menyenangkan Dan Dapat Memutar Musik Di Grup Anda!
 
     Lihat Di Bawah Untuk Ide Tentang Beberapa Hal yang Dapat Saya Bantu.
+music_text: |
+    💢 Hito Memiliki fitur Music dan Stream 💢
+
+    Anda dapat mendengarkan musik dari platform Youtube,Spotify,Resso dll.
+    Klik Tombol di bawah ini jika Anda tidak mengerti tentang fitur ini.
 m_admin: |
-    ✅Perintah Admin: 
+    🔰Perintah Admin: 
     c adalah singkatan dari pemutaran saluran.
 
     ❂ /pause atau /cpause - Menjeda musik yang sedang diputar.
@@ -1035,32 +1040,32 @@ m_admin: |
     ❂ /stop atau /cstop- Menghentikan pemutaran musik.
     ❂ /shuffle atau /cshuffle- Secara acak mengacak daftar putar yang antri.
   
-    ✅Lewati Spesifik.
+    🔰Lewati Spesifik.
     ❂ /skip atau /cskip Nomor(contoh: 3)
     - Melompati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
   
-    ✅Pemutaran Putaran:
+    🔰Pemutaran Putaran:
     ❂ /loop atau /cloop enable/disable atau Angka antara 1-10 - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default untuk 10 kali.
  
-    ✅Pengguna Auth:
+    🔰Pengguna Auth:
     Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
     ❂ /auth Nama Pengguna - Tambahkan pengguna ke DAFTAR AUTH grup.
     ❂ /unauth Nama Pengguna - Menghapus pengguna dari DAFTAR AUTH grup.
     ❂ /authusers - Periksa DAFTAR AUTH grup.
 m_play: |
-    ✅Perintah Mainkan:
+    🔰Perintah Mainkan:
     cplay atau cstream singkatan dari channel play.
     vplay adalah singkatan dari pemutaran video.
     ❂ /play atau /vplay atau /cplay - Bot akan mulai memainkan kueri yang Anda berikan pada obrolan suara.
     ❂ /stream atau /cstream - Streaming tautan langsung di obrolan suara.
     ❂ /channelplay Nama pengguna atau id obrolan atau Nonaktifkan - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
  
-    ✅Daftar Putar Server Bot:
+    🔰Daftar Putar Server Bot:
     ❂ /playlist - Periksa Daftar Putar Tersimpan Anda Di Server.
     ❂ /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
     ❂ /play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server.
 m_bot: |
-    ✅Perintah Bot:
+    🔰Perintah Bot:
     ❂ /mstats - Dapatkan Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat, dll.
     ❂ /sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
     ❂ /lyrics Music Name - Mencari Lirik untuk Musik tertentu di web.
@@ -1069,12 +1074,12 @@ m_bot: |
     c adalah singkatan dari pemutaran saluran.
     ❂ /queue atau /cqueue- Periksa Daftar Antrian Musik.
 m_extra: |
-    ✅Perintah Ekstra:
+    🔰Perintah Ekstra:
     ❂ /mstart - Mulai Bot Musik.
     ❂ /mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
     ❂ /mping- Ping Bot dan periksa Ram, Cpu dll statistik Bot.
 
-    ✅Pengaturan Grup:
+    🔰Pengaturan Grup:
     ❂ /msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
 
     🔗 Opsi di Pengaturan:
