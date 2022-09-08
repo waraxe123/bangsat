@@ -538,6 +538,7 @@ def Source_about_callback(update, context):
         query.message.edit_text(
             text=gs(chat.id, "m_admin"),
             parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
