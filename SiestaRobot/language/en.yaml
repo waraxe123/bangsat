@@ -90,6 +90,8 @@ help_button: "ɢᴇᴛ ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
 about_button: "ᴀʙᴏᴜᴛ ʜɪᴛᴏ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
+manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
+music_button: "ᴍᴜsɪᴄ 🎶"
 
 # MODULES
 admin_help: |
@@ -994,6 +996,12 @@ style_help: |
     ❂ /blue <text>: bluify your text!
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
+pm_hito_help_text: |
+    🔰 ʜɪᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ 🔰
+
+    ɪ'ᴍ ᴀ ᴍᴏᴅᴜʟᴀʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ꜰᴜɴ ᴀᴅᴅɪᴛɪᴏɴs ᴀɴᴅ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
+
+    sᴇᴇ ʙᴇʟᴏᴡ ꜰᴏʀ ɪᴅᴇᴀs ᴏɴ sᴏᴍᴇ ᴏꜰ ᴛʜᴇ ᴛʜɪɴɢs ɪ ᴄᴀɴ ʜᴇʟᴘ ᴡɪᴛʜ.
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
