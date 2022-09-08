@@ -486,11 +486,11 @@ def siesta_about_callback(update, context):
             ),
         )
 
-def siesta_help_callback(update, context):
+def Source_about_callback(update, context):
     query = update.callback_query
     chat = update.effective_chat
     uptime = get_readable_time((time.time() - StartTime))
-    if query.data == "siesta_help":
+    if query.data == "source_":
         query.message.edit_text(
             text=gs(chat.id, "pm_hito_help_text"),
             parse_mode=ParseMode.MARKDOWN,
@@ -499,29 +499,8 @@ def siesta_help_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "manage_button"), callback_data="help_back"),
-                        InlineKeyboardButton(text=gs(chat.id, "music_button"), calback_data="hito_music"),
+                        InlineKeyboardButton(text=gs(chat.id, "music_button"), calback_data="source_back"),
                     ],
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
-                    ]
-                ]
-            ),
-        )
-
-def Source_about_callback(update, context):
-    query = update.callback_query
-    chat = update.effective_chat
-    uptime = get_readable_time((time.time() - StartTime))
-    if query.data == "source_":
-        query.message.edit_text(
-            text="๏›› This advance command for Musicplayer."
-            "\n\n๏ Command for admins and member can you see with command bellow."
-            "\n • `/mhelp` - checking help music module (only in pm bot)"
-            "\n • `/msettings` - setting your authorization music module",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
                     ]
