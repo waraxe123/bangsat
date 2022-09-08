@@ -988,12 +988,12 @@ telegraph_help: |
     ❂ /tgm : Dapatkan Tautan Telegraf Media Balasan
     ❂ /tgt: Dapatkan Tautan Telegraf dari Teks Balasan
 
+    Tautan Ke Berkas:
+    ❂ /up: balas tautan unduhan langsung untuk mengunggahnya ke telegram sebagai file
+    
     File Ke Tautan:
     ❂ /transfersh: balas file telegram untuk mengunggahnya di transfersh dan dapatkan tautan unduhan langsung
     ❂ /tmpninja: balas file telegram untuk diunggah ke tmpninja dan dapatkan tautan unduhan langsung
-
-    Tautan Ke Berkas:
-    ❂ /up: balas tautan unduhan langsung untuk mengunggahnya ke telegram sebagai file
 style_help: |
     ──「 StyleText 」──
 
