@@ -90,6 +90,8 @@ help_button: "ʙᴀɴᴛᴜᴀɴ"
 back_button: "ᴋᴇᴍʙᴀʟɪ"
 about_button: "ᴛᴇɴᴛᴀɴɢ ʜɪᴛᴏ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
+manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
+music_button: "ᴍᴜsɪᴄ 🎶"
 
 # MODULES
 admin_help: |
@@ -1006,6 +1008,12 @@ style_help: |
     ❂ /blue <text>: bluify teks Anda!
     ❂ /latin <text>: latinkan teks Anda!
     ❂ /lined <text>: melapisi teks Anda!
+pm_hito_help_text: |
+    🔰ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ʜɪᴛᴏ🔰
+
+    sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴍᴏᴅᴜʟᴀʀ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ᴛᴀᴍʙᴀʜᴀɴ ᴍᴇɴʏᴇɴᴀɴɢᴋᴀɴ ᴅᴀɴ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴅɪ ɢʀᴜᴘ ᴀɴᴅᴀ!
+
+    ʟɪʜᴀᴛ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ɪᴅᴇ ᴛᴇɴᴛᴀɴɢ ʙᴇʙᴇʀᴀᴘᴀ ʜᴀʟ ʏᴀɴɢ ᴅᴀᴘᴀᴛ sᴀʏᴀ ʙᴀɴᴛᴜ.
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
