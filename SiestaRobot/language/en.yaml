@@ -63,7 +63,7 @@ pm_about_credit_text: |
 pm_help_text: |
    💢 Hito Can Manage Your Group 💢
 
-   Click on the button bellow To get description about specifics command.
+   Click on the button bellow to get description about specifics command.
    » /start : Start Me !!
    » /help : Command To Help You
    » /settings : Show Current Chat Settings
@@ -1006,13 +1006,12 @@ style_help: |
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
 pm_hito_help_text: |
-    🔰 Hito Help Menu 🔰
+    💢 Hito Help Menu 💢
 
-    I'm a Modular Group Management Bot With Some Fun Additions And Can Play Music In Your Group!
-
-    See Below For Ideas On Some Of The Things I Can Help With.
+    I'm a modular group management bot with some fun additions and can play music in your group!
+    See below for ideas on Some of the things i can help with.
 music_text: |
-    💢 Hito Has Music and Stream Features 💢
+    💢 Hito Has Music And Stream Features 💢
 
     You can listen to music from platforms Youtube, Spotify, Resso etc.
     Click the Button below if you don't understand about this feature.
