@@ -9,6 +9,7 @@ TMP_DOWNLOAD_DIRECTORY = "./"
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
+from SiestaRobot.modules.language import gs
 
 
 wibu = "SiestaRobot"
@@ -116,4 +117,7 @@ file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
-__mod_name__ = "Telegraph"
+def helps(chat):
+    return gs(chat, "telegraph_help")
+
+__mod_name__ = "Tᴇʟᴇɢʀᴀᴘʜ"
