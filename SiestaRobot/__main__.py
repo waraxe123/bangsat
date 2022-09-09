@@ -565,7 +565,10 @@ def mm_about_callback(update, context):
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
                     ]
                 ]
-            ),
+             ),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
+                disable_web_page_preview=False,
         )
     elif query.data == "mm_bot":
         first_name = update.effective_user.first_name
@@ -582,6 +585,9 @@ def mm_about_callback(update, context):
                     ]
                 ]
             ),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
+                disable_web_page_preview=False,
         )
     elif query.data == "mm_extra":
         first_name = update.effective_user.first_name
@@ -598,6 +604,9 @@ def mm_about_callback(update, context):
                     ]
                 ]
             ),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
+                disable_web_page_preview=False,
         )
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
