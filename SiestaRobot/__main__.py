@@ -209,10 +209,10 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
@@ -382,18 +382,15 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="siesta_admin"),
-                        InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
+                        InlineKeyboardButton(text=gs(chat.id, "btn_admin"), callback_data="siesta_admin"),
+                        InlineKeyboardButton(text=gs(chat.id, "btn_play"), callback_data="siesta_notes"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
+                        InlineKeyboardButton(text=gs(chat.id, "btn_bot"), callback_data="siesta_support"),
+                        InlineKeyboardButton(text=gs(chat.id, "btn_extra"), callback_data="siesta_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://www.instagram.com/invites/contact/?i=1bk9e2vezw3ma&utm_content=8yz3iiq"),
-                    ],
-                    [
-                    InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
+                    InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_"),
                     ]
                 ]
             ),
@@ -410,10 +407,10 @@ def siesta_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
@@ -428,13 +425,13 @@ def siesta_about_callback(update, context):
 
     elif query.data == "siesta_admin":
         query.message.edit_text(
-            text=gs(chat.id, "pm_about_admin_text"),
+            text=gs(chat.id, "m_admin"),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
                     ]
                 ]
             ),
@@ -442,28 +439,24 @@ def siesta_about_callback(update, context):
 
     elif query.data == "siesta_notes":
         query.message.edit_text(
-            text=gs(chat.id, "pm_about_notes_text"),
+            text=gs(chat.id, "m_play"),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
                     ]
                 ]
             ),
         )
     elif query.data == "siesta_support":
         query.message.edit_text(
-            text=gs(chat.id, "pm_about_support_text"),
+            text=gs(chat.id, "m_bot"),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/QwertYou_LoveMe"),
-                    ],
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
                     ]
                 ]
             ),
@@ -472,15 +465,12 @@ def siesta_about_callback(update, context):
 
     elif query.data == "siesta_credit":
         query.message.edit_text(
-            text=gs(chat.id, "pm_about_credit_text"),
+            text=gs(chat.id, "m_extra"),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="AL", url="https://t.me/IDnyaAL"),
-                    ],
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
                     ]
                 ]
             ),
@@ -499,7 +489,7 @@ def Source_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "manage_button"), callback_data="help_back"),
-                        InlineKeyboardButton(text=gs(chat.id, "music_button"), callback_data="source_back"),
+                        InlineKeyboardButton(text=gs(chat.id, "music_button"), callback_data="siesta_"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -518,12 +508,12 @@ def Source_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "btn_admin"), callback_data="emm_admin"),
-                            InlineKeyboardButton(text=gs(chat.id, "btn_play"), callback_data="emm_play"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_admin"), callback_data="siesta_admin"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_play"), callback_data="siesta_notes"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "btn_bot"), callback_data="emm_bot"),
-                            InlineKeyboardButton(text=gs(chat.id, "btn_extra"), callback_data="emm_extra"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_bot"), callback_data="siesta_support"),
+                            InlineKeyboardButton(text=gs(chat.id, "btn_extra"), callback_data="siesta_credit"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_"),
