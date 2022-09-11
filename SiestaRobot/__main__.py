@@ -209,10 +209,10 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
@@ -382,6 +382,14 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
+                    InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
+                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/Buduh"),
+                    ],
+                    [
+                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/IDnyaAL"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url="https://t.me/+eOyeaWYq4BUyZjhl"),
+                    ],
+                    [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
                     ]
                 ]
@@ -399,10 +407,10 @@ def siesta_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="siesta_"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
+                            InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
