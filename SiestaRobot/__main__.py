@@ -382,15 +382,7 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "btn_admin"), callback_data="siesta_admin"),
-                        InlineKeyboardButton(text=gs(chat.id, "btn_play"), callback_data="siesta_notes"),
-                    ],
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "btn_bot"), callback_data="siesta_support"),
-                        InlineKeyboardButton(text=gs(chat.id, "btn_extra"), callback_data="siesta_credit"),
-                    ],
-                    [
-                    InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_"),
+                    InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
                     ]
                 ]
             ),
@@ -489,7 +481,7 @@ def Source_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "manage_button"), callback_data="help_back"),
-                        InlineKeyboardButton(text=gs(chat.id, "music_button"), callback_data="siesta_"),
+                        InlineKeyboardButton(text=gs(chat.id, "music_button"), callback_data="source_back"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -524,130 +516,7 @@ def Source_about_callback(update, context):
                 timeout=60,
                 disable_web_page_preview=False,
         )
-    elif query.data == "emm_admin":
-        query.message.edit_text(
-            text=gs(chat.id, "m_admin"),
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-        )
-    elif query.data == "emm_play":
-        query.message.edit_text(
-            text=gs(chat.id, "m_play"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-        )
-    elif query.data == "emm_bot":
-        query.message.edit_text(
-            text=gs(chat.id, "m_bot"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-        )
-    elif query.data == "emm_extra":
-        query.message.edit_text(
-            text=gs(chat.id, "m_extra"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-        )
 
-def mm_about_callback(update, context):
-    query = update.callback_query
-    chat = update.effective_chat
-    uptime = get_readable_time((time.time() - StartTime))
-    if query.data == "mm_admin":
-        query.message.edit_text(
-            text=gs(chat.id, "m_admin"),
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-        )
-    elif query.data == "mm_play":
-        first_name = update.effective_user.first_name
-        query.message.edit_text(
-                text=gs(chat.id, "m_play").format(
-                    escape_markdown(first_name),
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
-                reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-             ),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=False,
-        )
-    elif query.data == "mm_bot":
-        first_name = update.effective_user.first_name
-        query.message.edit_text(
-                text=gs(chat.id, "m_bot").format(
-                    escape_markdown(first_name),
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
-                reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=False,
-        )
-    elif query.data == "mm_extra":
-        first_name = update.effective_user.first_name
-        query.message.edit_text(
-                text=gs(chat.id, "m_extra").format(
-                    escape_markdown(first_name),
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
-                reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="source_back"),
-                    ]
-                ]
-            ),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=False,
-        )
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
     args = update.effective_message.text.split(None, 1)
@@ -755,7 +624,6 @@ def send_settings(chat_id, user_id, user=False):
                 "in a group chat you're admin in to find its current settings!",
                 parse_mode=ParseMode.MARKDOWN,
             )
-
 
 def settings_button(update: Update, context: CallbackContext):
     query = update.callback_query
