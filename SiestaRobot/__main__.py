@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), callback_data="setLang_"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
                             InlineKeyboardButton(
@@ -412,7 +412,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), callback_data="setLang_"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
