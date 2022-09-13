@@ -66,7 +66,7 @@ pm_help_text: |
    Click on the button bellow to get description about specifics command.
    » /start : Start Me !!
    » /help : Command To Help You
-   » /setlang : Change My Language
+   » /setlang : To Change My Language
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
