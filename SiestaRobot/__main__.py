@@ -534,11 +534,11 @@ def Source_about_callback(update, context):
                 timeout=60,
                 disable_web_page_preview=False,
         )
-
-def set_lang(update: Update, _) -> None:
-    chat = update.effective_chat
+def set_lang_callback(update, context):
+    query = update.callback_query
     msg = update.effective_message
-
+    if query.data == "set_lang":
+    
     msg_text = gs(chat.id, "curr_chat_lang").format(
         get_language(sql.get_chat_lang(chat.id))[:-3]
     )
@@ -551,8 +551,8 @@ def set_lang(update: Update, _) -> None:
     keyb.append(
         [
             InlineKeyboardButton(
-                text="Help us in translations",
-                url="https://poeditor.com/join/project?hash=gXVtzsSQ88",
+                text=gs(chat.id, "back_button"),
+                callback_data="siesta_back"),
             )
         ]
     )
