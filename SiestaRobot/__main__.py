@@ -9,6 +9,8 @@ import traceback
 import itertools
 import SiestaRobot.modules.sql.language_sql as sql
 
+from SiestaRobot import dispatcher
+from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 from collections.abc import Iterable
 from SiestaRobot.language import get_string, get_languages, get_language
 from SiestaRobot import dispatcher
