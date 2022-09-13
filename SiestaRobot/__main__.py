@@ -538,11 +538,13 @@ def set_lang_callback(update, context):
     query = update.callback_query
     msg = update.effective_message
     if query.data == "set_lang":
-    
-    msg_text = gs(chat.id, "curr_chat_lang").format(
-        get_language(sql.get_chat_lang(chat.id))[:-3]
-    )
-
+        query.message.edit_text(
+            text=gs(chat.id, "curr_chat_lang"),
+            get_language(sql.get_chat_lang(chat.id))[:-3]
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+            
     keyb = [InlineKeyboardButton(
                 text=name,
                 callback_data=f"setLang_{code}",
