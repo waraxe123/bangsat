@@ -6,7 +6,6 @@ import time
 import re
 import sys
 import traceback
-import SiestaRobot.modules.language
 
 from SiestaRobot import dispatcher
 from sqlalchemy.sql.expression import text, update
