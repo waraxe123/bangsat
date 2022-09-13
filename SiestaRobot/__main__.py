@@ -535,25 +535,6 @@ def Source_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-def paginate(
-    iterable: Iterable, page_size: int
-) -> Generator[List, None, None]:
-    while True:
-        i1, i2 = itertools.tee(iterable)
-        iterable, page = (
-            itertools.islice(i1, page_size, None),
-            list(itertools.islice(i2, page_size)),
-        )
-        if not page:
-            break
-        yield page
-
-
-def gs(chat_id: Union[int, str], string: str) -> str:
-    lang = sql.get_chat_lang(chat_id)
-    return get_string(lang, string)
-
-
 def set_lang(update: Update, _) -> None:
     chat = update.effective_chat
     msg = update.effective_message
