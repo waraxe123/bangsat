@@ -7,7 +7,6 @@ import re
 import sys
 import traceback
 
-from SiestaRobot import dispatcher
 from sqlalchemy.sql.expression import text, update
 import SiestaRobot.modules.sql.users_sql as sql
 from sys import argv
