@@ -66,7 +66,7 @@ pm_help_text: |
    Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik.
    » /play : Mulai Aku !!
    » /help : Perintah Untuk Membantu Kamu
-   » /settings : Menampilkan Pengaturan Obrolan Saat Ini
+   » /setlang : Untuk Mengganti Bahasa Aku
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
 
 # Group Help Text
