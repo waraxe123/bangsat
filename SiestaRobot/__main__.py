@@ -534,38 +534,6 @@ def Source_about_callback(update, context):
                 timeout=60,
                 disable_web_page_preview=False,
         )
-def set_lang_callback(update, context):
-    query = update.callback_query
-    msg = update.effective_message
-    if query.data == "set_lang":
-        query.message.edit_text(
-            text=gs(chat.id, "curr_chat_lang"),
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "language"), callback_data="setLang_{id}"),
-                        InlineKeyboardButton(text=gs(chat.id, "language"), callback_data="setLang_{en}"),
-                    ],
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
-                    ]
-                ]
-           ),
-       )
-
-def lang_button(update: Update, _) -> None:
-    query = update.callback_query
-    chat = update.effective_chat
-
-    query.answer()
-    lang = query.data.split("_")[1]
-    sql.set_lang(chat.id, lang)
-
-    query.message.edit_text(
-        gs(chat.id, "set_chat_lang").format(get_language(lang)[:-3])
-    )
 
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
