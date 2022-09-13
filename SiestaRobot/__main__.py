@@ -6,18 +6,9 @@ import time
 import re
 import sys
 import traceback
-import itertools
-import SiestaRobot.modules.sql.language_sql as sql
 import SiestaRobot.modules.language
 
 from SiestaRobot import dispatcher
-from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from collections.abc import Iterable
-from SiestaRobot.language import get_string, get_languages, get_language
-from SiestaRobot import dispatcher
-from telegram.ext import CommandHandler, CallbackQueryHandler
-from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
-from typing import Union, List, Dict, Callable, Generator, Any
 from sqlalchemy.sql.expression import text, update
 import SiestaRobot.modules.sql.users_sql as sql
 from sys import argv
