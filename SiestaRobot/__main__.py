@@ -540,24 +540,20 @@ def set_lang_callback(update, context):
     if query.data == "set_lang":
         query.message.edit_text(
             text=gs(chat.id, "curr_chat_lang"),
-            get_language(sql.get_chat_lang(chat.id))[:-3]
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-            
-    keyb = [InlineKeyboardButton(
-                text=name,
-                callback_data=f"setLang_{code}",
-            ) for code, name in get_languages().items()]
-    keyb = list(paginate(keyb, 2))
-    keyb.append(
-        [
-            InlineKeyboardButton(
-                text=gs(chat.id, "back_button"), callback_data="siesta_back"),
-        ]
-    )
-    msg.reply_text(msg_text, reply_markup=InlineKeyboardMarkup(keyb))
-
+                [
+                    [
+                        InlineKeyboardButton(text=gs(chat.id, "language"), callback_data="setLang_{id}"),
+                        InlineKeyboardButton(text=gs(chat.id, "language"), callback_data="setLang_{en}"),
+                    ],
+                    [
+                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
+                    ]
+                ]
+           ),
+       )
 
 def lang_button(update: Update, _) -> None:
     query = update.callback_query
