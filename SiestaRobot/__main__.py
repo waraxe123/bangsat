@@ -8,6 +8,7 @@ import sys
 import traceback
 import itertools
 import SiestaRobot.modules.sql.language_sql as sql
+import SiestaRobot.modules.language
 
 from SiestaRobot import dispatcher
 from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
@@ -223,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), callback_data="set_lang"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), callback_data="setLang_"),
                         ],
                         [
                             InlineKeyboardButton(
@@ -421,7 +422,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), callback_data="set_lang"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), callback_data="setLang_"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
@@ -844,8 +845,8 @@ def main():
         Source_about_callback, pattern=r"source_", run_async=True
     )
 
-    set_lang_callback_handler = CallbackQueryHandler(
-        Source_about_callback, pattern=r"set_lang", run_async=True
+    setLang_callback_handler = CallbackQueryHandler(
+        Source_about_callback, pattern=r"setLang_", run_async=True
     )
 
     donate_handler = CommandHandler("donate", donate, run_async=True)
@@ -858,7 +859,7 @@ def main():
     dispatcher.add_handler(help_handler)
     dispatcher.add_handler(about_callback_handler)
     dispatcher.add_handler(source_callback_handler)
-    dispatcher.add_handler(set_lang_callback_handler)
+    dispatcher.add_handler(setLang_callback_handler)
     dispatcher.add_handler(settings_handler)
     dispatcher.add_handler(help_callback_handler)
     dispatcher.add_handler(settings_callback_handler)
