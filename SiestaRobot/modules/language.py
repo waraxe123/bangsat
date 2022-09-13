@@ -10,7 +10,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from SiestaRobot import dispatcher
 from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 from SiestaRobot.language import get_string, get_languages, get_language
- 
+
 
 
 def paginate(
