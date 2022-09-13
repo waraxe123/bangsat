@@ -49,8 +49,8 @@ def set_lang(update: Update, _) -> None:
     keyb.append(
         [
             InlineKeyboardButton(
-                text="Help us in translations",
-                url="https://poeditor.com/join/project?hash=gXVtzsSQ88",
+                text="💢 ᴅᴏɴᴀᴛᴇ 💢",
+                url="https://t.me/+eOyeaWYq4BUyZjhl",
             )
         ]
     )
