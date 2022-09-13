@@ -9,6 +9,7 @@ import traceback
 import itertools
 import SiestaRobot.modules.sql.language_sql as sql
 
+from collections.abc import Iterable
 from SiestaRobot.language import get_string, get_languages, get_language
 from SiestaRobot import dispatcher
 from telegram.ext import CommandHandler, CallbackQueryHandler
