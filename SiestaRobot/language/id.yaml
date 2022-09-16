@@ -1,7 +1,7 @@
 # Language name in their native
 language: "Indonesia 🇮🇩"
 # name of people(s) who worked on this translation
-authors: "@saint_foire"
+authors: "@IDnyaAL"
 
 # languages
 curr_chat_lang: "Hai. Bahasa Anda saat ini adalah {}, pilih yang Anda inginkan dari tombol di bawah :)"
@@ -9,8 +9,8 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ʜɪᴛᴏ !*
-  ✪  sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴡɪʙᴜ [✨](https://telegra.ph/file/097fb9c7248583e3d6a50.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ !*
+  ✪  sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴡᴀʏᴀɴɢ [✨](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
   ────────────────────
   × *Aᴋᴛɪꜰ Sᴇᴊᴀᴋ:* {}
   × {} *Pᴇɴɢɢᴜɴᴀ, Dɪ Sᴇʟᴜʀᴜʜ* {} *Cʜᴀᴛꜱ.*
@@ -19,12 +19,12 @@ pm_start_text: |
   ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
    
 group_start_text: |
-  *👋🏻 Hai Kentod, Gua Hito!* 
+  *👋🏻 Hallo Ayang, Aku Niskala!* 
   
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  ✺ Halo saya *Hito*, bot manajemen grup yang kuat yang dibuat untuk membantu kamu mengelola grup dengan mudah. ✺
+  ✺ Halo saya *Niskala*, bot manajemen grup yang kuat yang dibuat untuk membantu kamu mengelola grup dengan mudah. ✺
 
   ✪ Saya dapat membatasi pengguna.
   ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
@@ -33,12 +33,12 @@ pm_about_text: |
   ✪ Saya memiliki sistem pencatatan, daftar hitam, dan bahkan balasan yang telah ditentukan sebelumnya untuk kata kunci tertentu.
   ✪ Saya memeriksa izin admin sebelum menjalankan perintah apa pun dan hal lainnya
 
-  _Hito dilisensikan di bawah GNU General Public License v3.0_
+  _Niskala dilisensikan di bawah GNU General Public License v3.0_
   Jika Anda memiliki Pertanyaan, Anda dapat bergabung dengan Obrolan Dukungan. Tim Pengembang saya akan Menjawab. Periksa Tombol Dukungan Di Bawah
 pm_about_admin_text: |
   *✺ Ayo buat grupmu sedikit efektif sekarang ✺*
 
-  Selamat, Hito sekarang siap untuk mengelola grup Anda.
+  Selamat, Niskala sekarang siap untuk mengelola grup Anda.
 
   *Alat Admin*
   Alat Admin Dasar membantu Anda melindungi dan memperkuat grup Anda.
@@ -53,15 +53,15 @@ pm_about_notes_text: |
   ✪ Anda dapat menyimpan pesan/media/audio atau apa pun sebagai catatan untuk mendapatkan catatan cukup gunakan # di awal kata"
   ✪ Anda juga dapat mengatur tombol untuk catatan dan filter (lihat menu bantuan)
 pm_about_support_text: |
-  *✺ Obrolan dukungan Hito ✺*
+  *✺ Obrolan dukungan Niskala ✺*
 
   Bergabunglah dengan Grup/Saluran Dukungan Saya untuk melihat atau melaporkan masalah di Hito.
 pm_about_credit_text: |
-  *✺ Credits for Hito ✺*
+  *✺ Credits for Niskala ✺*
 
   Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat Hito
 pm_help_text: |
-   💢 Hito Bisa Mengelola Grup Kamu 💢
+   💢 Niskala Bisa Mengelola Grup Kamu 💢
 
    Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik.
    » /play : Mulai Aku !!
@@ -93,7 +93,7 @@ notes_button: "ᴄᴀᴛᴀᴛᴀɴ"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
 help_button: "ʙᴀɴᴛᴜᴀɴ"
 back_button: "ᴋᴇᴍʙᴀʟɪ"
-about_button: "ᴛᴇɴᴛᴀɴɢ ʜɪᴛᴏ"
+about_button: "ᴛᴇɴᴛᴀɴɢ ɴɪsᴋᴀʟᴀ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
 music_button: "ᴍᴜsɪᴄ 🎶"
@@ -663,9 +663,9 @@ search_help: |
     ❂ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
     ❂ /country <nama negara>*:* Mengumpulkan info tentang negara tertentu
     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
-    ❂ Hito <query>*:* Hito menjawab pertanyaan
+    ❂ Niskala <query>*:* Niskala menjawab pertanyaan
 
-    💡 Contoh : `Hito di mana Jepang?`
+    💡 Contoh : `Niskala dimanakah Jawa?`
 stickers_help: |
     ──「 Stiker 」──
 
@@ -816,7 +816,7 @@ feds_help: |
 lang_help: |
     ──「 Bahasa 」──
 
-    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Hito menanggapi dalam bahasa mereka sendiri.
+    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Niskala menanggapi dalam bahasa mereka sendiri.
 
     Di sinilah terjemahan masuk; Anda dapat mengubah bahasa sebagian besar balasan menjadi bahasa pilihan Anda!
 
@@ -1018,12 +1018,12 @@ style_help: |
     ❂ /latin <text>: latinkan teks Anda!
     ❂ /lined <text>: melapisi teks Anda!
 pm_hito_help_text: |
-    💢 Menu Bantuan Hito 💢
+    💢 Menu Bantuan ɴɪsᴋᴀʟᴀ 💢
 
     Saya adalah bot manajemen grup modular dengan beberapa tambahan menyenangkan dan dapat memutar musik di grup anda!
     Lihat di bawah untuk ide tentang beberapa hal yang dapat saya bantu.
 music_text: |
-    💢 Hito Memiliki Fitur Music Dan Stream 💢
+    💢 ɴɪsᴋᴀʟᴀ Memiliki Fitur Music Dan Stream 💢
 
     Anda dapat mendengarkan musik dari platform Youtube,Spotify,Resso dll.
     Klik Tombol di bawah ini jika Anda tidak mengerti tentang fitur ini.
