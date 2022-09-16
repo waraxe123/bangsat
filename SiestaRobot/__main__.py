@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
 SIESTA_IMG = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
+ You can support the project by contacting @IDnyaAL \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/NiskalaXRobot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -414,7 +414,7 @@ def siesta_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/HitoXRobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/NiskalaXRobot?startgroup=new"),
                         ]
                     ]
                 ),
