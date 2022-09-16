@@ -85,7 +85,7 @@ def get_readable_time(seconds: int) -> str:
 
 SIESTA_IMG = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
-DONATE_STRING = {}
+DONATE_STRING = 
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -799,10 +799,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**✨ ɴɪsᴋᴀʟᴀ ᴀᴄᴛɪᴠᴇ ɴᴏᴡ ✨**\n\n
-                f**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : 3.10.6\n
-                f**ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : 1.3.5\n
-                f**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : 1.25.0""",
+                f"""**✨ ɴɪsᴋᴀʟᴀ ᴀᴄᴛɪᴠᴇ ɴᴏᴡ ✨**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
