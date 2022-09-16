@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇬🇧"
 # name of people(s) who worked on this translation
-authors: "@saint_foire"
+authors: "@IDnyaAL"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -9,8 +9,8 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ʜɪᴛᴏ !*
-  ✪ ɪ'ᴍ ᴀɴ ᴡɪʙᴜ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ [✨](https://telegra.ph/file/097fb9c7248583e3d6a50.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ !*
+  ✪ ɪ'ᴍ ᴀɴ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ [✨](https://telegra.ph/file/097fb9c7248583e3d6a50.jpg)
   ────────────────────
   × *Uᴘᴛɪᴍᴇ:* {}
   × {} *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* {} *Cʜᴀᴛꜱ.*
@@ -19,12 +19,12 @@ pm_start_text: |
   ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
    
 group_start_text: |
-  *👋🏻 Hello Bro., I'm ʜɪᴛᴏ !*
+  *👋🏻 Hello Bro., I'm ɴɪsᴋᴀʟᴀ !*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hello Bro I'm *Hito*, a powerful group management bot built to help you manage your group easily. ✺
+  ✺ Hello Bro I'm *Niskala*, a powerful group management bot built to help you manage your group easily. ✺
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -33,12 +33,12 @@ pm_about_text: |
   ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
   ✪ I check for admins' permissions before executing any command and more stuffs
 
-  _Hito's licensed under the GNU General Public License v3.0_
+  _Niskala's licensed under the GNU General Public License v3.0_
   If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
-  Congragulations, Hito now ready to manage your group.
+  Congragulations, Niskala now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -53,15 +53,15 @@ pm_about_notes_text: |
   ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ✪ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺ Hito support chats ✺*
+  *✺ Niskala support chats ✺*
 
   Join My Support Group/Channel for see or report a problem on Hito.
 pm_about_credit_text: |
-  *✺ Credis for Hito ✺*
+  *✺ Credis for Niskala ✺*
 
   Here Developers Making And Give Inspiration For Made The Hito
 pm_help_text: |
-   💢 Hito Can Manage Your Group 💢
+   💢 Niskala Can Manage Your Group 💢
 
    Click on the button bellow to get description about specifics command.
    » /start : Start Me !!
@@ -93,7 +93,7 @@ notes_button: "ɴᴏᴛᴇs"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
 help_button: "ɢᴇᴛ ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴀʙᴏᴜᴛ ʜɪᴛᴏ"
+about_button: "ᴀʙᴏᴜᴛ ɴɪsᴋᴀʟᴀ"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
 music_button: "ᴍᴜsɪᴄ 🎶"
@@ -663,9 +663,9 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Hito <query>*:* Hito answers the query
+    ❂ Niskala <query>*:* Niskala answers the query
 
-    💡 Ex : `Hito where is Japan?`
+    💡 Ex : `Niskala where is Java?`
 stickers_help: |
     ──「 Stickers 」──
 
@@ -804,7 +804,7 @@ feds_help: |
 lang_help: |
     ──「 Language 」──
 
-    Not every group speaks fluent english; some groups would rather have Hito respond in their own language.
+    Not every group speaks fluent english; some groups would rather have Niskala respond in their own language.
 
     This is where translations come in; you can change the language of most replies to be in the language of your choice!
 
@@ -915,7 +915,7 @@ distater_help: |
 bug_help: |
     ──「 Bug Report 」──
 
-    Bug Report Is a module for reporting bugs on Hito bots
+    Bug Report Is a module for reporting bugs on Niskala bots
     So that the bot can be fixed as soon as possible
 
     Command : 
@@ -1006,12 +1006,12 @@ style_help: |
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
 pm_hito_help_text: |
-    💢 Hito Help Menu 💢
+    💢 Niskala Help Menu 💢
 
     I'm a modular group management bot with some fun additions and can play music in your group!
     See below for ideas on Some of the things i can help with.
 music_text: |
-    💢 Hito Has Music And Stream Features 💢
+    💢 Niskala Has Music And Stream Features 💢
 
     You can listen to music from platforms Youtube, Spotify, Resso etc.
     Click the Button below if you don't understand about this feature.
