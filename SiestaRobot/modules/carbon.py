@@ -24,7 +24,7 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/c97b7e4f0af6394db940b.jpg"
+MEMEK = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
@@ -44,7 +44,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://xnxx.com"), 
+                        "Repo", url="https://github.com/Rzydx/Niskala-Robot"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/NiskalaSupport")
                 ]
