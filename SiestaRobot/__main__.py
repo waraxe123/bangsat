@@ -799,7 +799,10 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Woi Mek, Gw Dah Aktif 😏**""",
+                f"""**✨ ɴɪsᴋᴀʟᴀ ᴀᴄᴛɪᴠᴇ ɴᴏᴡ ✨**\n\n
+                f**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : 3.10.6\n
+                f**ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : 1.3.5\n
+                f**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : 1.25.0""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
