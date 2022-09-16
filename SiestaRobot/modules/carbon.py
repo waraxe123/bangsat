@@ -30,23 +30,23 @@ MEMEK = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **ʜᴇʏ ɪ'ᴍ ʜɪᴛᴏ** ✨ 
+        caption=f"""✨ **ʜᴇʏ ɪ'ᴍ ɴɪsᴋᴀʟᴀ** ✨ 
 
-♨️**Owner repo : [AL](https://t.me/IDnyaAL)**
-🐍**Python Version :** `{y()}`
-📃**Library Version :** `{o}`
-♻️**Telethon Version :** `{s}`
-💢**Pyrogram Version :** `{z}`
+♨️ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ : [ᴀʟ](https://t.me/IDnyaAL)**
+🐍 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
+📃 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}`
+♻️ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}`
+💢 **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**Create your own with click button bellow.**
+**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴛʜ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/Rzydx/Niskala-Robot"), 
+                        "ʀᴇᴘᴏ", url="https://github.com/Rzydx/Niskala-Robot"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/NiskalaSupport")
+                        "sᴜᴘᴘᴏʀᴛ", url="https://t.me/NiskalaSupport")
                 ]
             ]
         )
