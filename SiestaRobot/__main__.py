@@ -85,7 +85,7 @@ def get_readable_time(seconds: int) -> str:
 
 SIESTA_IMG = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
-DONATE_STRING = 
+DONATE_STRING = """Thank you for those of you who have donated, may God reward you twice as much for what you give 🤲"""
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
