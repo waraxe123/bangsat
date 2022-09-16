@@ -85,11 +85,7 @@ def get_readable_time(seconds: int) -> str:
 
 SIESTA_IMG = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @IDnyaAL \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
-
+DONATE_STRING = {}
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -754,7 +750,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 945137470:
+        if OWNER_ID != 1338853808:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
